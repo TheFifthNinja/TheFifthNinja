@@ -1,6 +1,5 @@
 import { animate, motion } from 'framer-motion'
 
-// variants
 const stairAnimation = {
     initial: {
         top: "0%",
@@ -13,11 +12,11 @@ const stairAnimation = {
     },
 }
 
-// calculating the reverse index for stagger delay
 const reverseIndex = (index) => {
     const totalSteps = 6;
     return totalSteps - index - 1;
 }
+
 const Stairs = () => {
     return (
         <>
