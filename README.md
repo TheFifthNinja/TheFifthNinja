@@ -7,16 +7,23 @@ I'm a passionate **Software Engineering Student** at the **University of Otago**
 
 - 🌱 Currently diving deep into **React**, **Tailwind CSS**, and **Minimax Algorithms**.
 - 🔭 Working on [**Tempo**](https://github.com/stobitejnr/Tempo) — a terminal-based app for all your time-tracking needs.
+- 🔧 Developing [**PropertySleeze**](https://github.com/TheFifthNinja/PropertySleeze) — a website where people can list things to rent to others.
 - 💬 Ask me about **Cloud Computing**, **Full Stack Development**, and **C++**.
 - 🤝 Always open to collaboration on **Open Source Projects**.
 - ⚡ Fun fact: I love **basketball**, **rugby**, **tennis**, and experimenting with new **recipes**!
 
 ### 🛠️ Technologies and Tools
 
-- **Languages:** C++, JavaScript, Python
-- **Frontend:** React, Tailwind CSS
-- **DevOps:** GitHub Actions, Vagrant
-- **Databases:** MySQL
+- **Languages:** C++, Java, JavaScript, Python, Kotlin
+- **Frontend:** React, Tailwind CSS, HTML, CSS, Next.js
+- **Backend:** Node.js, Express, Kotlin
+- **Databases:** MySQL, PostgreSQL, NoSQL (MongoDB)
+- **DevOps:** GitHub Actions, Vagrant, Docker, CI/CD pipelines
+- **Cloud:** AWS (S3, EC2), Azure, Google Cloud Platform
+- **Version Control:** Git, GitHub
+- **Tools:** Visual Studio Code, Figma, Postman, JIRA
+- **AI/ML:** TensorFlow, Scikit-Learn
+- **Testing:** Jest, Mocha, Chai
 
 ### 🌍 Find Me Around the Web
 
