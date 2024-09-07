@@ -23,7 +23,7 @@ const info = [
   {
     icon: <FaMapMarkerAlt />,
     title: "Address",
-    description: "835 George Street, Dunedin, New Zealand",
+    description: "Dunedin, New Zealand",
   },
 ];
 
