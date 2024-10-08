@@ -1,7 +1,7 @@
 [![Deploy Next.js site to Pages](https://github.com/TheFifthNinja/TheFifthNinja/actions/workflows/nextjs.yml/badge.svg)](https://github.com/TheFifthNinja/TheFifthNinja/actions/workflows/nextjs.yml)
 
 # 👋 Hello! I'm Kevin Albert
-## Here is my [Portfolio!](https://the-fifth-ninja.vercel.app/)
+## Here is my [Portfolio!](https://www.kevinalbert.life/)
 
 I'm a passionate **Software Engineering Student** at the **University of Otago**, exploring various fields such as **Cloud Computing**, **Frontend Development**, and **AI Algorithms**. I love building projects, contributing to open source, and learning new technologies!
 
