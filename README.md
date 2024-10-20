@@ -17,8 +17,6 @@ Known for my friendliness, quick wit, and occasional "waffling", I'm excited to 
 
 ## 🛠️ Tech Stack
 
-## 🛠️ Tech Stack
-
 | **Category**           | **Technologies**                                                                 |
 |------------------------|----------------------------------------------------------------------------------|
 | **Languages**          | C++, Java, JavaScript, Python, Kotlin, HTML                                            |
