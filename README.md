@@ -48,7 +48,7 @@ I'm always open to collaborating on open-source projects. If you have an idea or
 
 - I can cook a mean pasta dish while discussing the latest NBA trades
 - I once coded an entire project during halftime of a basketball game (don't ask how it turned out)
-- My ultimate goal: Develop an AI that can predict the perfect recipe based on your fridge contents
+- My goal as of right now: Develop a steam overlay app that will automatically tell if you can run a game on your PC using your specs.
 
 ## 📊 GitHub Stats
 
