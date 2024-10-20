@@ -21,7 +21,7 @@ Known for my friendliness, quick wit, and occasional "waffling", I'm excited to 
 |------------------------|----------------------------------------------------------------------------------|
 | **Languages**          | C++, Java, JavaScript, Python, Kotlin, HTML                                            |
 | **Frontend**           | React, Tailwind CSS, Next.js                                                     |
-| **Backend**            | Node.js, Express, Kotlin                                                          |
+| **Backend**            | Node.js, Express, Kotlin, Java, Python, Django                                                          |
 | **Databases**          | MySQL, PostgreSQL, MongoDB                                                        |
 | **DevOps & Cloud**     | GitHub Actions, Docker, AWS                                          |
 | **AI/ML & Testing**    | TensorFlow, Scikit-Learn, Jest, PyTest                                       |
