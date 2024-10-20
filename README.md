@@ -17,13 +17,11 @@ Known for my friendliness, quick wit, and occasional "waffling", I'm excited to 
 
 ## 🛠️ Tech Stack
 
-## 🛠️ Tech Stack
-
 | **Category**           | **Technologies**                                                                 |
 |------------------------|----------------------------------------------------------------------------------|
 | **Languages**          | C++, Java, JavaScript, Python, Kotlin, HTML                                            |
 | **Frontend**           | React, Tailwind CSS, Next.js                                                     |
-| **Backend**            | Node.js, Express, Kotlin                                                          |
+| **Backend**            | Node.js, Express, Kotlin, Java, Python, Django                                                          |
 | **Databases**          | MySQL, PostgreSQL, MongoDB                                                        |
 | **DevOps & Cloud**     | GitHub Actions, Docker, AWS                                          |
 | **AI/ML & Testing**    | TensorFlow, Scikit-Learn, Jest, PyTest                                       |
@@ -48,7 +46,7 @@ I'm always open to collaborating on open-source projects. If you have an idea or
 
 - I can cook a mean pasta dish while discussing the latest NBA trades
 - I once coded an entire project during halftime of a basketball game (don't ask how it turned out)
-- My ultimate goal: Develop an AI that can predict the perfect recipe based on your fridge contents
+- My goal as of right now: Develop a steam overlay app that will automatically tell if you can run a game on your PC using your specs.
 
 ## 📊 GitHub Stats
 
