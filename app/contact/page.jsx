@@ -99,10 +99,10 @@ const Contact = () => {
                 <SelectContent>
                   <SelectGroup>
                     <SelectLabel>Select a service</SelectLabel>
-                    <SelectItem value="web-development">Web Development</SelectItem>
-                    <SelectItem value="database-management">Database Management</SelectItem>
-                    <SelectItem value="cloud-computing">Cloud Computing</SelectItem>
-                    <SelectItem value="devops-ci-cd">DevOps and CI/CD</SelectItem>
+                    <SelectItem value="Contract">Contract</SelectItem>
+                    <SelectItem value="Freelance">Freelance</SelectItem>
+                    <SelectItem value="Consult">Consult</SelectItem>
+                    <SelectItem value="Other">Other</SelectItem>
                   </SelectGroup>
                 </SelectContent>
               </Select>

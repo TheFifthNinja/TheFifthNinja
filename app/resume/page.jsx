@@ -1,7 +1,8 @@
 'use client';
 
-import { FaHtml5, FaCss3, FaJs, FaReact, FaFigma, FaNodeJs, FaPython, FaAws, FaJava, FaLinux } from "react-icons/fa";
-import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
+import { FaHtml5, FaCss3, FaJs, FaReact, FaFigma, FaNodeJs, FaPython, FaAws, FaJava, FaLinux, FaDocker } from "react-icons/fa";
+import { SiTailwindcss, SiNextdotjs, SiTypescript, SiKotlin, SiMysql, SiVagrant, SiMongodb } from "react-icons/si";
+import { BiLogoCPlusPlus, BiLogoPostgresql } from "react-icons/bi";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Tooltip, TooltipProvider, TooltipTrigger, TooltipContent } from "@/components/ui/tooltip";
 import { ScrollArea } from "@radix-ui/react-scroll-area";
@@ -11,14 +12,13 @@ import { useState } from "react";
 // About Data
 const about = {
   title: "About me",
-  description: "I am Kevin Albert, a passionate and dedicated software engineer with over 3 years of experience in building and maintaining high-quality applications. I specialize in web development, cloud computing, and database management, and I'm always eager to learn new technologies and take on challenging projects. With a strong foundation in software engineering principles, I have a proven ability to work collaboratively and independently to deliver impactful solutions. I'm currently available for freelance opportunities and am excited to bring my skills and enthusiasm to new and innovative projects.",
+  description: "I am a Software Engineering and Computer Science major, eagerly awaiting graduation at the end of the year. I’m known for being friendly and quick-witted, though some would say I can be a bit of a ”waffler” at times. In my free time, I’m a huge basketball enthusiast—I not only play the sport but also closely follow the NBA. While basketball is my greatest passion, I’ve also developed a love for other sports like tennis and rugby. Cooking is another interest I inherited from my mother, who has worked as a restaurant chef. With a background in both athletics and culinary arts, my path to a career in IT might seem like an unexpected twist, but such is life.",
   info: [
     { fieldName: "Name", fieldValue: "Kevin Albert" },
     { fieldName: "Email", fieldValue: "Kevinalbert774@gmail.com" },
     { fieldName: "Phone", fieldValue: "(+64) 21 239 3379" },
-    { fieldName: "Experience", fieldValue: "3+ Years" },
     { fieldName: "Nationality", fieldValue: "New Zealand" },
-    { fieldName: "Freelance", fieldValue: "Available" },
+    { fieldName: "Availability", fieldValue: "Ready to go" },
     { fieldName: "Languages", fieldValue: "English, Tamil" }
   ]
 };
@@ -48,6 +48,7 @@ const skills = {
   title: "Skills",
   description: "I have experience working with a wide range of technologies and tools. Here are some of the key skills that I bring to the table:",
   skillList: [
+    { icon: <BiLogoCPlusPlus />, name: "C++" },
     { icon: <FaHtml5 />, name: "HTML5" },
     { icon: <FaCss3 />, name: "CSS3" },
     { icon: <FaJs />, name: "JavaScript" },
@@ -59,7 +60,14 @@ const skills = {
     { icon: <FaAws />, name: "AWS" },
     { icon: <FaJava />, name: "Java" },
     { icon: <FaFigma />, name: "Figma" },
-    { icon: <FaLinux />, name: "Linux" }
+    { icon: <FaLinux />, name: "Linux" },
+    { icon: <FaDocker />, name: "Docker" },
+    { icon: <SiTypescript />, name: "TypeScript" },
+    { icon: <SiKotlin />, name: "Kotlin" },
+    { icon: <BiLogoPostgresql />, name: "PostgreSQL" },
+    { icon: <SiMysql />, name: "MySQL" },
+    { icon: <SiVagrant />, name: "Vagrant" },
+    { icon: <SiMongodb />, name: "MongoDB" },
   ]
 };
 
@@ -84,10 +92,11 @@ const Resume = () => {
       <div className="container mx-auto">
         <Tabs defaultValue="experience" className="flex flex-col xl:flex-row gap-[60px]">
           <TabsList className="flex flex-col w-full max-w-[380px] mx-auto xl:mx-0 gap-6">
+            <TabsTrigger value="about">About me</TabsTrigger>
             <TabsTrigger value="experience">Work Experience</TabsTrigger>
             <TabsTrigger value="education">Education</TabsTrigger>
             <TabsTrigger value="skills">Skills</TabsTrigger>
-            <TabsTrigger value="about">About me</TabsTrigger>
+            
           </TabsList>
 
           {/* Content */}
