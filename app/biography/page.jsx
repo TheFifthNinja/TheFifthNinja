@@ -49,26 +49,26 @@ const skills = {
   title: "Skills",
   description: "I have experience working with a wide range of technologies and tools. Here are some of the key skills that I bring to the table:",
   skillList: [
-    { icon: <BiLogoCPlusPlus />, name: "C++" },
-    { icon: <FaHtml5 />, name: "HTML5" },
-    { icon: <FaCss3 />, name: "CSS3" },
-    { icon: <FaJs />, name: "JavaScript" },
-    { icon: <FaReact />, name: "React" },
-    { icon: <SiNextdotjs />, name: "Next.js" },
-    { icon: <SiTailwindcss />, name: "Tailwind CSS" },
-    { icon: <FaNodeJs />, name: "Node.js" },
-    { icon: <FaPython />, name: "Python" },
-    { icon: <FaAws />, name: "AWS" },
-    { icon: <FaJava />, name: "Java" },
-    { icon: <FaFigma />, name: "Figma" },
-    { icon: <FaLinux />, name: "Linux" },
-    { icon: <FaDocker />, name: "Docker" },
-    { icon: <SiTypescript />, name: "TypeScript" },
-    { icon: <SiKotlin />, name: "Kotlin" },
-    { icon: <BiLogoPostgresql />, name: "PostgreSQL" },
-    { icon: <SiMysql />, name: "MySQL" },
-    { icon: <SiVagrant />, name: "Vagrant" },
-    { icon: <SiMongodb />, name: "MongoDB" },
+    { icon: <BiLogoCPlusPlus />, name: "C++", link: "https://isocpp.org/" },
+    { icon: <FaHtml5 />, name: "HTML5", link: "https://developer.mozilla.org/en-US/docs/Web/HTML" },
+    { icon: <FaCss3 />, name: "CSS3", link: "https://developer.mozilla.org/en-US/docs/Web/CSS" },
+    { icon: <FaJs />, name: "JavaScript", link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript" },
+    { icon: <FaReact />, name: "React", link: "https://react.dev/" },
+    { icon: <SiNextdotjs />, name: "Next.js", link: "https://nextjs.org/" },
+    { icon: <SiTailwindcss />, name: "Tailwind CSS", link: "https://tailwindcss.com/" },
+    { icon: <FaNodeJs />, name: "Node.js", link: "https://nodejs.org/" },
+    { icon: <FaPython />, name: "Python", link: "https://www.python.org/" },
+    { icon: <FaAws />, name: "AWS", link: "https://aws.amazon.com/" },
+    { icon: <FaJava />, name: "Java", link: "https://www.java.com/" },
+    { icon: <FaFigma />, name: "Figma", link: "https://www.figma.com/" },
+    { icon: <FaLinux />, name: "Linux", link: "https://www.linux.org/" },
+    { icon: <FaDocker />, name: "Docker", link: "https://www.docker.com/" },
+    { icon: <SiTypescript />, name: "TypeScript", link: "https://www.typescriptlang.org/" },
+    { icon: <SiKotlin />, name: "Kotlin", link: "https://kotlinlang.org/" },
+    { icon: <BiLogoPostgresql />, name: "PostgreSQL", link: "https://www.postgresql.org/" },
+    { icon: <SiMysql />, name: "MySQL", link: "https://www.mysql.com/" },
+    { icon: <SiVagrant />, name: "Vagrant", link: "https://www.vagrantup.com/" },
+    { icon: <SiMongodb />, name: "MongoDB", link: "https://www.mongodb.com/" },
   ]
 };
 
@@ -236,20 +236,39 @@ const Resume = () => {
                 >
                   {skills.title}
                 </motion.h3>
-                <p className="max-w-[800px] text-lg text-white/80 mx-auto leading-relaxed">
+                <p className="max-w-[1200px] text-lg text-white/80 mx-auto leading-relaxed">
                   {skills.description}
                 </p>
-                <ul className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mx-auto">
+                <ul className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-7 gap-8 mx-auto max-w-[1400px]">
                   {skills.skillList.map((skill, index) => (
                     <motion.li
                       key={index}
                       initial={{ opacity: 0, scale: 0.8 }}
                       animate={{ opacity: 1, scale: 1 }}
                       transition={{ duration: 0.3, delay: index * 0.1 }}
-                      className="flex flex-col items-center cursor-pointer hover:scale-110 transition-transform"
                     >
-                      <div className="text-4xl text-white">{skill.icon}</div>
-                      <span className="text-white mt-2">{skill.name}</span>
+                      <TooltipProvider delayDuration={100}>
+                        <Tooltip>
+                          <TooltipTrigger asChild>
+                            <a
+                              href={skill.link}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="flex flex-col items-center hover:scale-110 transition-transform group"
+                            >
+                              <div className="text-8xl text-white group-hover:text-[#E4003A] transition-colors">
+                                {skill.icon}
+                              </div>
+                              <span className="text-white mt-4 group-hover:text-[#E4003A] transition-colors">
+                                {skill.name}
+                              </span>
+                            </a>
+                          </TooltipTrigger>
+                          <TooltipContent>
+                            <p>Click to visit {skill.name} documentation</p>
+                          </TooltipContent>
+                        </Tooltip>
+                      </TooltipProvider>
                     </motion.li>
                   ))}
                 </ul>

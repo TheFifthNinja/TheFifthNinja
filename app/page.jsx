@@ -1,7 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { FiDownload } from "react-icons/fi";
 import { FaStar } from "react-icons/fa";
-
 // Components
 import Social from "@/components/Social";
 import Photo from "@/components/Photo";
@@ -39,11 +38,19 @@ const page = () => {
                     <span>Download Resume</span>
                     <FiDownload className="text-xl" />
                   </Button>
-                  {/* Badge */}
+                  {/* Enhanced badge with shimmer and waves */}
                   <div className="absolute top-0 right-10 transform translate-x-1/2 -translate-y-1/2">
-                    <div className="flex items-center justify-center bg-yellow-500 text-white text-xs font-semibold rounded-full p-1">
-                      <FaStar className="text-yellow-300 mr-1" /> {/* Gold star */}
-                      Updated!
+                    {/* Wave effects */}
+                    <div className="absolute inset-0 -z-10">
+                      <div className="absolute inset-0 rounded-full border border-yellow-500/50 animate-wave-1"></div>
+                      <div className="absolute inset-0 rounded-full border border-yellow-500/40 animate-wave-2"></div>
+                      <div className="absolute inset-0 rounded-full border border-yellow-500/30 animate-wave-3"></div>
+                    </div>
+                    {/* Badge with shimmer */}
+                    <div className="flex items-center justify-center bg-yellow-500 text-white text-xs font-semibold rounded-full p-1 relative overflow-hidden">
+                      <div className="absolute inset-0 w-full h-full animate-shimmer" />
+                      <FaStar className="text-yellow-300 mr-1 animate-pulse z-10" />
+                      <span className="z-10">Updated!</span>
                     </div>
                   </div>
                 </a>

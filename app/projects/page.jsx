@@ -27,7 +27,7 @@ const projects = [
     title: "PantryPal",
     description: "Create a web app with a team of other developers that incorporate AI to generate recipes from a custom pantry. It also deployed on Android and iOS using the WebView framework.",
     tools: [
-      { icon: <SiGooglegemini />, name: "Google Cloud", url: "https://cloud.google.com/" },
+      { icon: <SiGooglegemini />, name: "Google Gemini", url: "https://gemini.google.com/" },
       { icon: <FaReact />, name: "React", url: "https://reactjs.org/" },
       { icon: <DiDjango />, name: "Django", url: "https://www.djangoproject.com/" },
       { icon: <FaPython />, name: "Python", url: "https://www.python.org/" },
