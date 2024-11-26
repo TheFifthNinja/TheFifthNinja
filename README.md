@@ -6,7 +6,7 @@
 
 ## 🚀 About Me
 
-I'm a soon-to-be graduate in Software Engineering and Computer Science, with a unique blend of passions:
+I'm a graduate in Software Engineering and Computer Science, with a unique blend of passions:
 
 - 🏀 Basketball enthusiast and avid NBA follower
 - 🎾 Tennis and rugby aficionado
