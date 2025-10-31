@@ -1,6 +1,6 @@
 # 👋 Hello, World! I'm Kevin Albert
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-kevinalbert.life-blue?style=for-the-badge&logo=google-chrome)](https://www.kevinalbert.life/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-kevinalbert.life-blue?style=for-the-badge&logo=google-chrome)](https://www.kevinalbert.live/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Kevin_Albert-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/kevin-albert-a2551a217/)
 [![GitHub followers](https://img.shields.io/github/followers/TheFifthNinja?label=Follow&style=social)](https://github.com/TheFifthNinja)
 
